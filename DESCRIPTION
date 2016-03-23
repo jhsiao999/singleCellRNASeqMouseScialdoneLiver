@@ -1,0 +1,13 @@
+Package: singleCellRNASeqMouseScialdoneLiver
+Maintainer: Chiaowen Joyce Hsiao <joyce.hsiao1@gmail.com>
+Author: Chiaowen Joyce Hsiao <joyce.hsiao1@gmail.com>
+Version: 0.99.0
+License: Artistic-2.0
+Title: single-cell RNA-seq data of mouse liver cells
+Description: This package stores Sciladone et al., 2015 data in an ExpressionSet object. Citation: Antonio Scialdone, Kedar N Natarajan, Luis R Saraiva, Valentina Proserpio, Sarah A Teichmann, Oliver Stegle, John C Marioni, and Florian Buettner. Computational assignment of cell-cycle stage from single-cell transcriptome data. Methods, 85(1): 54-61. DOI: 10.1016/j.ymeth.2015.06.021
+LazyData: yes
+Depends:
+    R (>= 2.10), Biobase (>= 2.26.0)
+biocViews: ExperimentData
+NeedsCompilation: no
+RoxygenNote: 5.0.1
